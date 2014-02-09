@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:roscomponentmodel="http://www.hyperflex.org/componentmodels.ros" xmi:id="_470fIJGPEeOJ9IeLqOpUqA" type="RosComponentModel" name="test.roscomponentmodel_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_6fAJIJGPEeOJ9IeLqOpUqA" type="2001" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6fB-UJGPEeOJ9IeLqOpUqA" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6fB-UZGPEeOJ9IeLqOpUqA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_8FEIAJGPEeOJ9IeLqOpUqA" type="3001" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_8FEvEJGPEeOJ9IeLqOpUqA" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_8FGkQJGPEeOJ9IeLqOpUqA" type="7002">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_8FGkQZGPEeOJ9IeLqOpUqA" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_8FGkQpGPEeOJ9IeLqOpUqA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_8FGkQ5GPEeOJ9IeLqOpUqA"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-lIRAJGPEeOJ9IeLqOpUqA" type="3003">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_-lIRAZGPEeOJ9IeLqOpUqA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_-lIRApGPEeOJ9IeLqOpUqA" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_-lIRA5GPEeOJ9IeLqOpUqA"/>
+          <element xmi:type="roscomponentmodel:NodeMsgProducer" href="test.roscomponentmodel#//@composite/@components.0/@msgProducers.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-lIRBJGPEeOJ9IeLqOpUqA"/>
+        </children>
+        <element xmi:type="roscomponentmodel:Node" href="test.roscomponentmodel#//@composite/@components.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8FEIAZGPEeOJ9IeLqOpUqA" x="147" y="52" height="177"/>
+      </children>
+    </children>
+    <element xmi:type="roscomponentmodel:Composite" href="test.roscomponentmodel#//@composite"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6fAJIZGPEeOJ9IeLqOpUqA" x="70" y="69" width="639" height="352"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_470fIZGPEeOJ9IeLqOpUqA"/>
+  <element xmi:type="roscomponentmodel:System" href="test.roscomponentmodel#/"/>
+</notation:Diagram>
