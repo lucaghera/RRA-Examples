@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cdmModel:ContextDependentMeasurementsModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmModel="http://www.rra.org/cdmmodel" name="ContextMonitor">
   <cdms xsi:type="cdmModel:ROSContextDependentMeasurement" name="string_cdm">
-    <inputDataType href="test.datatypesmodel#//@types.0"/>
     <publisher href="test.roscomponentmodel#//@composite/@components.0/@msgProducers.0"/>
+    <inputDataType href="test.datatypesmodel#//@types.0"/>
+  </cdms>
+  <cdms xsi:type="cdmModel:ROSContextDependentMeasurement" name="integer_cdm">
+    <publisher href="test.roscomponentmodel#//@composite/@components.0/@msgProducers.0"/>
+    <inputDataType href="test.datatypesmodel#//@types.0"/>
+    <cdmFunction href="test.datatypesmodel#//@types.0/@functions.0"/>
   </cdms>
 </cdmModel:ContextDependentMeasurementsModel>

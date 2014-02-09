@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataTypesModel:DataTypesModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataTypesModel="http://www.rra.org/datatypesmodel">
-  <types xsi:type="dataTypesModel:ROSMsgDataType" name="String" msgs_package="std_msgs"/>
+  <types xsi:type="dataTypesModel:ROSMsgDataType" name="String" msgs_package="std_msgs">
+    <functions name="getLenght" outputParameter="//@types.1"/>
+  </types>
+  <types xsi:type="dataTypesModel:ROSMsgDataType" name="Int32" msgs_package="std_msgs"/>
 </dataTypesModel:DataTypesModel>
