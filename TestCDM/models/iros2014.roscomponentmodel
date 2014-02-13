@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roscomponentmodel:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:roscomponentmodel="http://www.hyperflex.org/componentmodels.ros">
+  <composite name="ObjectDetectionAndStoring ">
+    <components xsi:type="roscomponentmodel:Node" name="RadioA">
+      <msgProducers name="RadioAPub" connection="//@composite/@topics.1"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="RadioB">
+      <msgProducers name="RadioBPub" connection="//@composite/@topics.0"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="RadioSwitch">
+      <msgProducers name="RadioMsgPub" connection="//@composite/@topics.2"/>
+      <msgConsumers name="RadioASub" connection="//@composite/@topics.1"/>
+      <msgConsumers name="RadioBSub" connection="//@composite/@topics.0"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="TaskManager">
+      <msgProducers name="RackIDPub" connection="//@composite/@topics.4"/>
+      <msgProducers name="ObjectPosePub" connection="//@composite/@topics.11"/>
+      <msgConsumers name="DetectedObjectSub" connection="//@composite/@topics.3"/>
+      <msgConsumers name="RadioMsgSub" connection="//@composite/@topics.2"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="ObjectDetector">
+      <msgProducers name="DetectedObjectPub" connection="//@composite/@topics.3"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="MapBasedNav">
+      <msgProducers name="PathPub" connection="//@composite/@topics.5"/>
+      <msgProducers name="SemLocationPub" connection="//@composite/@topics.14"/>
+      <msgConsumers name="RackIDSub" connection="//@composite/@topics.4"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="LocalNav">
+      <msgProducers name="TwistPub" connection="//@composite/@topics.7"/>
+      <msgConsumers name="PathSub" connection="//@composite/@topics.5"/>
+      <msgConsumers name="LaserScanSub" connection="//@composite/@topics.6"/>
+      <msgConsumers name="OdomSub" connection="//@composite/@topics.8"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="RobotDriver">
+      <msgProducers name="MeasJntValPub" connection="//@composite/@topics.10"/>
+      <msgProducers name="OdomPub" connection="//@composite/@topics.8"/>
+      <msgProducers name="BattLevPub" connection="//@composite/@topics.13"/>
+      <msgConsumers name="TwistSub" connection="//@composite/@topics.7"/>
+      <msgConsumers name="DesJntValSub" connection="//@composite/@topics.9"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="ArmPlanner">
+      <msgProducers name="ArmTrjPub" connection="//@composite/@topics.12"/>
+      <msgConsumers name="ObjectPoseSub" connection="//@composite/@topics.11"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="ArmController">
+      <msgProducers name="DesJntValPub" connection="//@composite/@topics.9"/>
+      <msgConsumers name="MeasJntValSub" connection="//@composite/@topics.10"/>
+      <msgConsumers name="ArmTrjSub" connection="//@composite/@topics.12"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="LaserScanner">
+      <msgProducers name="LaserScanPub" connection="//@composite/@topics.6"/>
+    </components>
+    <topics name="RadioB"/>
+    <topics name="RadioA"/>
+    <topics name="RadioMsg"/>
+    <topics name="DetectedObject"/>
+    <topics name="RackID"/>
+    <topics name="Path"/>
+    <topics name="LaserScan"/>
+    <topics name="Twist"/>
+    <topics name="Odom"/>
+    <topics name="DesJntVal"/>
+    <topics name="MeasJntVal"/>
+    <topics name="ObjectPose"/>
+    <topics name="ArmTrj"/>
+    <topics name="BattLev"/>
+    <topics name="SemLocation"/>
+  </composite>
+</roscomponentmodel:System>

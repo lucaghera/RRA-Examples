@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdmModel:ContextDependentMeasurementsModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmModel="http://www.rra.org/cdmmodel" name="CaseStudyCDM">
+  <cdms xsi:type="cdmModel:ROSContextDependentMeasurement" name="BattLev">
+    <topic href="iros2014.roscomponentmodel#//@composite/@topics.13"/>
+    <inputDataType href="iros2014.datatypesmodel#//@types.3"/>
+  </cdms>
+  <cdms xsi:type="cdmModel:ROSContextDependentMeasurement" name="SemLoc">
+    <topic href="iros2014.roscomponentmodel#//@composite/@topics.14"/>
+    <inputDataType href="iros2014.datatypesmodel#//@types.2"/>
+  </cdms>
+  <cdms xsi:type="cdmModel:ROSContextDependentMeasurement" name="ObstDist">
+    <topic href="iros2014.roscomponentmodel#//@composite/@topics.6"/>
+    <inputDataType href="iros2014.datatypesmodel#//@types.7"/>
+    <cdmFunction href="iros2014.datatypesmodel#//@rosMsgFunctions.1"/>
+  </cdms>
+  <cdms xsi:type="cdmModel:ROSContextDependentMeasurement" name="ObjectMaterial">
+    <topic href="iros2014.roscomponentmodel#//@composite/@topics.2"/>
+    <inputDataType href="iros2014.datatypesmodel#//@types.6"/>
+    <cdmFunction href="iros2014.datatypesmodel#//@rosMsgFunctions.0"/>
+  </cdms>
+</cdmModel:ContextDependentMeasurementsModel>

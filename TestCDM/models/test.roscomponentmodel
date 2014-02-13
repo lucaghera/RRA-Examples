@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<roscomponentmodel:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:roscomponentmodel="http://www.hyperflex.org/componentmodels.ros">
-  <composite name="TestComposite">
-    <components xsi:type="roscomponentmodel:Node" name="Talker" packageName="context_monitor" type="Talker">
-      <msgProducers name="chatter" topicName="chatter"/>
-    </components>
-  </composite>
-</roscomponentmodel:System>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featuremodels:FeatureModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataTypesModel="http://www.rra.org/datatypesmodel" xmlns:featuremodels="http://www.hyperflex.org/featuremodels" xmlns:runtimeFeatureModel="http://www.rra.org/runtimeFeatureModel" name="CaseStudyFM">
+  <rootFeature name="Case Study" root="true" required="true">
+    <subFeatures name="Task" required="true">
+      <containers upperBound="1">
+        <subFeatures name="Detection"/>
+        <subFeatures name="Manipulation"/>
+      </containers>
+    </subFeatures>
+    <subFeatures name="Environment" required="true">
+      <containers upperBound="1">
+        <subFeatures name="Static"/>
+        <subFeatures name="Dynamic">
+          <attributes xsi:type="runtimeFeatureModel:NFRAttribute" name="VeolocityLimit" measureUnit="m/s" value="0.5" tag="MAX">
+            <dataType xsi:type="dataTypesModel:PrimitiveDataType" href="iros2014.datatypesmodel#//@types.0"/>
+          </attributes>
+        </subFeatures>
+      </containers>
+    </subFeatures>
+    <subFeatures name="Object Material">
+      <containers upperBound="1">
+        <subFeatures name="Fragile"/>
+        <subFeatures name="Firm"/>
+      </containers>
+    </subFeatures>
+    <subFeatures name="Communic. Channel" required="true">
+      <containers upperBound="1">
+        <subFeatures name="Channel A">
+          <attributes xsi:type="runtimeFeatureModel:CIMAttribute" name="Latency" measureUnit="" value="High">
+            <dataType xsi:type="dataTypesModel:Enumerator" href="iros2014.datatypesmodel#//@types.4"/>
+          </attributes>
+          <attributes xsi:type="runtimeFeatureModel:CIMAttribute" name="BatteryConsumption" measureUnit="%/min" value="3">
+            <dataType xsi:type="dataTypesModel:PrimitiveDataType" href="iros2014.datatypesmodel#//@types.0"/>
+          </attributes>
+        </subFeatures>
+        <subFeatures name="Channel B">
+          <attributes xsi:type="runtimeFeatureModel:CIMAttribute" name="Latency" measureUnit="" value="Low">
+            <dataType xsi:type="dataTypesModel:Enumerator" href="iros2014.datatypesmodel#//@types.4"/>
+          </attributes>
+          <attributes xsi:type="runtimeFeatureModel:CIMAttribute" name="BatteryConsumption" measureUnit="%/min" value="5">
+            <dataType xsi:type="dataTypesModel:PrimitiveDataType" href="iros2014.datatypesmodel#//@types.0"/>
+          </attributes>
+        </subFeatures>
+      </containers>
+    </subFeatures>
+    <subFeatures name="Rack Size" required="true">
+      <containers upperBound="1">
+        <subFeatures name="Small"/>
+        <subFeatures name="Large"/>
+      </containers>
+    </subFeatures>
+    <subFeatures name="Motion Behavior" required="true">
+      <attributes xsi:type="runtimeFeatureModel:CVAttribute" name="MaxVel" measureUnit="m/s" lowerBound="0.4" upperBound="0.8">
+        <dataType xsi:type="dataTypesModel:PrimitiveDataType" href="iros2014.datatypesmodel#//@types.0"/>
+      </attributes>
+    </subFeatures>
+  </rootFeature>
+</featuremodels:FeatureModel>
