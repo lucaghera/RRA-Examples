@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <featuremodels:FeatureModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataTypesModel="http://www.rra.org/datatypesmodel" xmlns:featuremodels="http://www.hyperflex.org/featuremodels" xmlns:runtimeFeatureModel="http://www.rra.org/runtimeFeatureModel" name="CaseStudyFM">
-  <rootFeature name="Case Study" root="true" required="true">
+  <rootFeature name="CaseStudy" root="true" required="true">
     <subFeatures name="Task" required="true">
       <containers upperBound="1">
         <subFeatures name="Detection"/>
@@ -17,13 +17,13 @@
         </subFeatures>
       </containers>
     </subFeatures>
-    <subFeatures name="Object Material">
+    <subFeatures name="ObjectMaterial">
       <containers upperBound="1">
         <subFeatures name="Fragile"/>
         <subFeatures name="Firm"/>
       </containers>
     </subFeatures>
-    <subFeatures name="Communic. Channel" required="true">
+    <subFeatures name="ComChannel" required="true">
       <containers upperBound="1">
         <subFeatures name="Channel A">
           <attributes xsi:type="runtimeFeatureModel:CIMAttribute" name="Latency" measureUnit="" value="High">
@@ -43,13 +43,13 @@
         </subFeatures>
       </containers>
     </subFeatures>
-    <subFeatures name="Rack Size" required="true">
+    <subFeatures name="RackSize" required="true">
       <containers upperBound="1">
         <subFeatures name="Small"/>
         <subFeatures name="Large"/>
       </containers>
     </subFeatures>
-    <subFeatures name="Motion Behavior" required="true">
+    <subFeatures name="MotBehavior" required="true">
       <attributes xsi:type="runtimeFeatureModel:CVAttribute" name="MaxVel" measureUnit="m/s" lowerBound="0.4" upperBound="0.8">
         <dataType xsi:type="dataTypesModel:PrimitiveDataType" href="iros2014.datatypesmodel#//@types.0"/>
       </attributes>

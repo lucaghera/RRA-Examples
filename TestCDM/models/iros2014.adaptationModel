@@ -1,0 +1,27 @@
+import "iros2014.featuremodel"
+import "iros2014.cdmmodel"
+
+rule Location:
+  if(CaseStudyCDM.SemLoc == "RoomA" OR CaseStudyCDM.SemLoc == "RoomB") activate_feature(CaseStudyFM.CaseStudy.Environment.Static)
+  else activate_feature(CaseStudyFM.CaseStudy.Environment.Dynamic)
+;
+  
+rule RackSize:
+  if(CaseStudyCDM.SemLoc == "RoomA") activate_feature(CaseStudyFM.CaseStudy.RackSize.Small)
+  else if(CaseStudyCDM.SemLoc == "RoomB") activate_feature(CaseStudyFM.CaseStudy.RackSize.Large)
+  else deactivate_feature(CaseStudyFM.CaseStudy.RackSize.Small) AND deactivate_feature(CaseStudyFM.CaseStudy.RackSize.Large)
+;
+
+rule Radio:
+  if(CaseStudyCDM.BattLev > "50") select_feature_* 
+    from_variants_of_feature(CaseStudyFM.CaseStudy.ComChannel) 
+    where_attribue min("Latency")
+  else select_feature_*
+    from_variants_of_feature(CaseStudyFM.CaseStudy.ComChannel) 
+    where_attribue min("PowerConsumption")
+;
+
+rule ObjMaterial:
+  if(CaseStudyCDM.ObjectMaterial == "Glass") activate_feature(CaseStudyFM.CaseStudy.ObjectMaterial.Fragile)
+  else activate_feature(CaseStudyFM.CaseStudy.ObjectMaterial.Firm)
+;
