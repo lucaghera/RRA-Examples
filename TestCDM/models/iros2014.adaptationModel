@@ -25,3 +25,11 @@ rule ObjMaterial:
   if(CaseStudyCDM.ObjectMaterial == "Glass") activate_feature(CaseStudyFM.CaseStudy.ObjectMaterial.Fragile)
   else activate_feature(CaseStudyFM.CaseStudy.ObjectMaterial.Firm)
 ;
+
+rule_set MaxVelocity{
+ priority 2 rule maxVelBattObst :
+   set_attribute(CaseStudyFM.CaseStudy.MotBehavior.MaxVel) with_value("10");
+ priority 1 rule maxVelCorridor :
+   set_attribute(CaseStudyFM.CaseStudy.MotBehavior.MaxVel) with_value(CaseStudyFM.CaseStudy.Environment.Dynamic.VeolocityLimit);
+};
+
