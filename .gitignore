@@ -1,3 +1,5 @@
 .metadata
 *.class
 /bin
+*.cpp
+*.h
