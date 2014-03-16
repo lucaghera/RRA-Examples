@@ -1,5 +1,6 @@
 import "iros2014.featuremodel";
 import "iros2014.cdmmodel";
+import "iros2014.datatypesmodel";
 
 name iros2014AdaptationModel;
 period[ms] 1;
