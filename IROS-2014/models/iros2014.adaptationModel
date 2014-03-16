@@ -2,7 +2,7 @@ import "iros2014.featuremodel";
 import "iros2014.cdmmodel";
 
 name iros2014AdaptationModel;
-frequency[ms] 1;
+period[ms] 1;
 java output package org.rra.iros2014;
 
 rule Location {
