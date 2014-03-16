@@ -1,35 +1,41 @@
-import "iros2014.featuremodel"
-import "iros2014.cdmmodel"
+import "iros2014.featuremodel";
+import "iros2014.cdmmodel";
 
-rule Location:
+name iros2014AdaptationModel;
+frequency[ms] 1;
+java output package org.rra.iros2014;
+
+rule Location {
   if(CaseStudyCDM.SemLoc == "RoomA" OR CaseStudyCDM.SemLoc == "RoomB") activate_feature(CaseStudyFM.CaseStudy.Environment.Static)
   else activate_feature(CaseStudyFM.CaseStudy.Environment.Dynamic)
-;
+};
   
-rule RackSize:
+rule RackSize {
   if(CaseStudyCDM.SemLoc == "RoomA") activate_feature(CaseStudyFM.CaseStudy.RackSize.Small)
   else if(CaseStudyCDM.SemLoc == "RoomB") activate_feature(CaseStudyFM.CaseStudy.RackSize.Large)
   else deactivate_feature(CaseStudyFM.CaseStudy.RackSize.Small) AND deactivate_feature(CaseStudyFM.CaseStudy.RackSize.Large)
-;
+};
 
-rule Radio:
+rule Radio {
   if(CaseStudyCDM.BattLev > "50") select_feature_* 
     from_variants_of_feature(CaseStudyFM.CaseStudy.ComChannel) 
     where_attribue min("Latency")
   else select_feature_*
     from_variants_of_feature(CaseStudyFM.CaseStudy.ComChannel) 
     where_attribue min("PowerConsumption")
-;
+};
 
-rule ObjMaterial:
+rule ObjMaterial {
   if(CaseStudyCDM.ObjectMaterial == "Glass") activate_feature(CaseStudyFM.CaseStudy.ObjectMaterial.Fragile)
   else activate_feature(CaseStudyFM.CaseStudy.ObjectMaterial.Firm)
-;
+};
 
 rule_set MaxVelocity{
- priority 2 rule maxVelBattObst :
-   set_attribute(CaseStudyFM.CaseStudy.MotBehavior.MaxVel) with_value("10");
- priority 1 rule maxVelCorridor :
-   set_attribute(CaseStudyFM.CaseStudy.MotBehavior.MaxVel) with_value(CaseStudyFM.CaseStudy.Environment.Dynamic.VeolocityLimit);
+ rule maxVelBattObst priority 2 {
+   set_attribute(CaseStudyFM.CaseStudy.MotBehavior.MaxVel) with_value("10")
+ }
+ rule maxVelCorridor priority 1 {
+   set_attribute(CaseStudyFM.CaseStudy.MotBehavior.MaxVel) with_value(CaseStudyFM.CaseStudy.Environment.Dynamic.VeolocityLimit)
+ }
 };
 
