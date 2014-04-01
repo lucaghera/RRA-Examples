@@ -3,8 +3,7 @@ import "iros2014.cdmmodel";
 import "iros2014.datatypesmodel";
 
 name iros2014AdaptationModel;
-period[ms] 1;
-java output package org.rra.iros2014;
+period[ms] 20000;
 
 rule Location {
   if(CaseStudyCDM.SemLoc == "RoomA" OR CaseStudyCDM.SemLoc == "RoomB") activate_feature(CaseStudyFM.CaseStudy.Environment.Static)

@@ -55,4 +55,5 @@
       </attributes>
     </subFeatures>
   </rootFeature>
+  <instances id="Test" descritpion="Test instance" selectedFeatures="//@rootFeature //@rootFeature/@subFeatures.0 //@rootFeature/@subFeatures.1 //@rootFeature/@subFeatures.3 //@rootFeature/@subFeatures.4 //@rootFeature/@subFeatures.5 //@rootFeature/@subFeatures.0/@containers.0/@subFeatures.0 //@rootFeature/@subFeatures.1/@containers.0/@subFeatures.0 //@rootFeature/@subFeatures.3/@containers.0/@subFeatures.0 //@rootFeature/@subFeatures.4/@containers.0/@subFeatures.0 //@rootFeature/@subFeatures.2/@containers.0/@subFeatures.1"/>
 </featuremodels:FeatureModel>
