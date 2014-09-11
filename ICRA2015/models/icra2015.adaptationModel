@@ -1,0 +1,20 @@
+import "icra2015.featuremodel";
+import "icra2015.cdmmodel";
+import "icra2015.datatypesmodel";
+import "icra2015.resolutionmodel";
+import "icra2015.roscomponentmodel";
+
+feature model ICRA2015;
+template system model ICRA2015;
+resolution model ICRA2015;
+cdm model icra2015_cdm;
+data types model icra2015;
+
+name icra2015AdaptationModel;
+period[ms] 0;
+
+rule SafeRecover {
+  if(icra2015_cdm.motors_state > "3") deactivate_feature(ICRA2015.ICRA2015.Proploss)
+  else activate_feature(ICRA2015.ICRA2015.Proploss)
+};
+

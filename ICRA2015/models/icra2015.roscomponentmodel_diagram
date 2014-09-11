@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:roscomponentmodel="http://www.hyperflex.org/componentmodels.ros" xmi:id="_s1pJoDkWEeSOxOKGitXb-Q" type="RosComponentModel" name="icra2015.roscomponentmodel_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_t0sL0DkWEeSOxOKGitXb-Q" type="2001" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_t0tZ8DkWEeSOxOKGitXb-Q" type="5005"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_t0tZ8TkWEeSOxOKGitXb-Q" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_vb6BQDkWEeSOxOKGitXb-Q" type="3001" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_vb6BQjkWEeSOxOKGitXb-Q" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_vb7PYDkWEeSOxOKGitXb-Q" type="7002">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_vb72cDkWEeSOxOKGitXb-Q" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_vb72cTkWEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_vb72cjkWEeSOxOKGitXb-Q"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_YUK0MDkXEeSOxOKGitXb-Q" type="3005">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_YUK0MTkXEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_YUK0MjkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_YUK0MzkXEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeSrvProducer" href="icra2015.roscomponentmodel#//@composite/@components.0/@srvProducers.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YUK0NDkXEeSOxOKGitXb-Q" x="48" y="-19"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_kjVfwDkXEeSOxOKGitXb-Q" type="3004">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_kjVfwTkXEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kjVfwjkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_kjVfwzkXEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeMsgConsumer" href="icra2015.roscomponentmodel#//@composite/@components.0/@msgConsumers.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kjVfxDkXEeSOxOKGitXb-Q" x="126" y="36"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_HccMoDkYEeSOxOKGitXb-Q" type="3005">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_HccMoTkYEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HccMojkYEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_HccMozkYEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeSrvProducer" href="icra2015.roscomponentmodel#//@composite/@components.0/@srvProducers.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HcczsDkYEeSOxOKGitXb-Q"/>
+        </children>
+        <element xmi:type="roscomponentmodel:Node" href="icra2015.roscomponentmodel#//@composite/@components.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vb6BQTkWEeSOxOKGitXb-Q" x="374" y="437"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_0UkZUDkWEeSOxOKGitXb-Q" type="3001" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_0UkZUjkWEeSOxOKGitXb-Q" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_0UkZUzkWEeSOxOKGitXb-Q" type="7002">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_0UkZVDkWEeSOxOKGitXb-Q" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_0UkZVTkWEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_0UkZVjkWEeSOxOKGitXb-Q"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_8UDYYDkWEeSOxOKGitXb-Q" type="3003">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_8UD_cDkWEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_8UD_cTkWEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_8UD_cjkWEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeMsgProducer" href="icra2015.roscomponentmodel#//@composite/@components.1/@msgProducers.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8UD_czkWEeSOxOKGitXb-Q"/>
+        </children>
+        <element xmi:type="roscomponentmodel:Node" href="icra2015.roscomponentmodel#//@composite/@components.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0UkZUTkWEeSOxOKGitXb-Q" x="14" y="137"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9BqsUDkWEeSOxOKGitXb-Q" type="3001" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_9BqsUjkWEeSOxOKGitXb-Q" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_9BqsUzkWEeSOxOKGitXb-Q" type="7002">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_9BqsVDkWEeSOxOKGitXb-Q" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_9BqsVTkWEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_9BqsVjkWEeSOxOKGitXb-Q"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ADNxwDkXEeSOxOKGitXb-Q" type="3003">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_ADNxwTkXEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ADNxwjkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_ADNxwzkXEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeMsgProducer" href="icra2015.roscomponentmodel#//@composite/@components.2/@msgProducers.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ADNxxDkXEeSOxOKGitXb-Q"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Ae_HwDkXEeSOxOKGitXb-Q" type="3004">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_Ae_HwTkXEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Ae_HwjkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_Ae_HwzkXEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeMsgConsumer" href="icra2015.roscomponentmodel#//@composite/@components.2/@msgConsumers.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ae_HxDkXEeSOxOKGitXb-Q"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_V63agDkXEeSOxOKGitXb-Q" type="3006">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_V63agTkXEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_V63agjkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_V63agzkXEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeSrvConsumer" href="icra2015.roscomponentmodel#//@composite/@components.2/@srvConsumers.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V63ahDkXEeSOxOKGitXb-Q" x="48" y="73"/>
+        </children>
+        <element xmi:type="roscomponentmodel:Node" href="icra2015.roscomponentmodel#//@composite/@components.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9BqsUTkWEeSOxOKGitXb-Q" x="374" y="137"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_L_EfwDkXEeSOxOKGitXb-Q" type="3014">
+        <children xmi:type="notation:DecorationNode" xmi:id="_L_EfxTkXEeSOxOKGitXb-Q" type="5004"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_L_EfwTkXEeSOxOKGitXb-Q"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_L_EfwjkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_L_EfwzkXEeSOxOKGitXb-Q"/>
+        <element xmi:type="roscomponentmodel:Topic" href="icra2015.roscomponentmodel#//@composite/@topics.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L_EfxDkXEeSOxOKGitXb-Q" x="230" y="161"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_d9ChMDkXEeSOxOKGitXb-Q" type="3001" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_d9DIQDkXEeSOxOKGitXb-Q" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_d9DIQTkXEeSOxOKGitXb-Q" type="7002">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_d9DIQjkXEeSOxOKGitXb-Q" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_d9DIQzkXEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_d9DIRDkXEeSOxOKGitXb-Q"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_f4fhQDkXEeSOxOKGitXb-Q" type="3004">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_f4fhQTkXEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_f4fhQjkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_f4fhQzkXEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeMsgConsumer" href="icra2015.roscomponentmodel#//@composite/@components.3/@msgConsumers.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f4fhRDkXEeSOxOKGitXb-Q"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_jxhBQDkXEeSOxOKGitXb-Q" type="3003">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_jxhBQTkXEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_jxhBQjkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_jxhBQzkXEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeMsgProducer" href="icra2015.roscomponentmodel#//@composite/@components.3/@msgProducers.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jxhBRDkXEeSOxOKGitXb-Q" x="48" y="73"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_QQgDQDkYEeSOxOKGitXb-Q" type="3004">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_QQgDQTkYEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_QQgDQjkYEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_QQgDQzkYEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeMsgConsumer" href="icra2015.roscomponentmodel#//@composite/@components.3/@msgConsumers.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QQgDRDkYEeSOxOKGitXb-Q"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_C6u_MDkcEeSOxOKGitXb-Q" type="3003">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_C6u_MTkcEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_C6u_MjkcEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_C6u_MzkcEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeMsgProducer" href="icra2015.roscomponentmodel#//@composite/@components.3/@msgProducers.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C6u_NDkcEeSOxOKGitXb-Q" x="96" y="73"/>
+        </children>
+        <element xmi:type="roscomponentmodel:Node" href="icra2015.roscomponentmodel#//@composite/@components.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d9ChMTkXEeSOxOKGitXb-Q" x="698" y="137"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_hsJ3QDkXEeSOxOKGitXb-Q" type="3014">
+        <children xmi:type="notation:DecorationNode" xmi:id="_hsKeUDkXEeSOxOKGitXb-Q" type="5004"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_hsJ3QTkXEeSOxOKGitXb-Q"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_hsJ3QjkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_hsJ3QzkXEeSOxOKGitXb-Q"/>
+        <element xmi:type="roscomponentmodel:Topic" href="icra2015.roscomponentmodel#//@composite/@topics.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hsJ3RDkXEeSOxOKGitXb-Q" x="565" y="158"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_nSplsDkXEeSOxOKGitXb-Q" type="3014">
+        <children xmi:type="notation:DecorationNode" xmi:id="_nSqMwDkXEeSOxOKGitXb-Q" type="5004"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_nSplsTkXEeSOxOKGitXb-Q"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_nSplsjkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_nSplszkXEeSOxOKGitXb-Q"/>
+        <element xmi:type="roscomponentmodel:Topic" href="icra2015.roscomponentmodel#//@composite/@topics.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nSpltDkXEeSOxOKGitXb-Q" x="710" y="461"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_JOv3wDkYEeSOxOKGitXb-Q" type="3001" fontName="Ubuntu">
+        <children xmi:type="notation:DecorationNode" xmi:id="_JOwe0DkYEeSOxOKGitXb-Q" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_JOwe0TkYEeSOxOKGitXb-Q" type="7002">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_JOwe0jkYEeSOxOKGitXb-Q" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_JOwe0zkYEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_JOxF4DkYEeSOxOKGitXb-Q"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Ko6vsDkYEeSOxOKGitXb-Q" type="3006">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_Ko6vsTkYEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Ko6vsjkYEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_Ko6vszkYEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeSrvConsumer" href="icra2015.roscomponentmodel#//@composite/@components.4/@srvConsumers.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ko6vtDkYEeSOxOKGitXb-Q" x="48" y="73"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ViLYQDkYEeSOxOKGitXb-Q" type="3003">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_ViLYQTkYEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ViLYQjkYEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_ViLYQzkYEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeMsgProducer" href="icra2015.roscomponentmodel#//@composite/@components.4/@msgProducers.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ViLYRDkYEeSOxOKGitXb-Q" x="48" y="-19"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WFIe4DkZEeSOxOKGitXb-Q" type="3004">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_WFIe4TkZEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_WFIe4jkZEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_WFIe4zkZEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeMsgConsumer" href="icra2015.roscomponentmodel#//@composite/@components.4/@msgConsumers.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WFIe5DkZEeSOxOKGitXb-Q"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_CSZewDkaEeSOxOKGitXb-Q" type="3006">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_CSZewTkaEeSOxOKGitXb-Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CSZewjkaEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_CSZewzkaEeSOxOKGitXb-Q"/>
+          <element xmi:type="roscomponentmodel:NodeSrvConsumer" href="icra2015.roscomponentmodel#//@composite/@components.4/@srvConsumers.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CSZexDkaEeSOxOKGitXb-Q"/>
+        </children>
+        <element xmi:type="roscomponentmodel:Node" href="icra2015.roscomponentmodel#//@composite/@components.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JOv3wTkYEeSOxOKGitXb-Q" x="542" y="317"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_BpR-YDkcEeSOxOKGitXb-Q" type="3014">
+        <children xmi:type="notation:DecorationNode" xmi:id="_BpR-ZTkcEeSOxOKGitXb-Q" type="5004"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BpR-YTkcEeSOxOKGitXb-Q"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_BpR-YjkcEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_BpR-YzkcEeSOxOKGitXb-Q"/>
+        <element xmi:type="roscomponentmodel:Topic" href="icra2015.roscomponentmodel#//@composite/@topics.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BpR-ZDkcEeSOxOKGitXb-Q" x="792" y="295"/>
+      </children>
+    </children>
+    <element xmi:type="roscomponentmodel:Composite" href="icra2015.roscomponentmodel#//@composite"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t0sL0TkWEeSOxOKGitXb-Q" x="144" y="88" width="877" height="597"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_s1pJoTkWEeSOxOKGitXb-Q"/>
+  <element xmi:type="roscomponentmodel:System" href="icra2015.roscomponentmodel#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_OOAcgDkXEeSOxOKGitXb-Q" type="4001" source="_8UDYYDkWEeSOxOKGitXb-Q" target="_L_EfwDkXEeSOxOKGitXb-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_OOBDkDkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OOBDkTkXEeSOxOKGitXb-Q" points="[10, -4, -81, 0]$[80, -5, -11, -1]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OOSwYDkXEeSOxOKGitXb-Q" id="(0.2037037037037037,0.475)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_O4sYQDkXEeSOxOKGitXb-Q" type="4002" source="_Ae_HwDkXEeSOxOKGitXb-Q" target="_L_EfwDkXEeSOxOKGitXb-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_O4sYQTkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_O4sYQjkXEeSOxOKGitXb-Q" points="[-10, -3, 76, 0]$[-81, -3, 5, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O4xQwDkXEeSOxOKGitXb-Q" id="(0.9074074074074074,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_bxFnADkXEeSOxOKGitXb-Q" type="4007" source="_V63agDkXEeSOxOKGitXb-Q" target="_YUK0MDkXEeSOxOKGitXb-Q">
+    <children xmi:type="notation:DecorationNode" xmi:id="_bxGOEDkXEeSOxOKGitXb-Q" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bxGOETkXEeSOxOKGitXb-Q" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_bxFnATkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+    <element xmi:type="roscomponentmodel:Wire" href="icra2015.roscomponentmodel#//@composite/@wires.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bxFnAjkXEeSOxOKGitXb-Q" points="[1, 10, 1, -90]$[1, 90, 1, -10]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ieq5UDkXEeSOxOKGitXb-Q" type="4001" source="_ADNxwDkXEeSOxOKGitXb-Q" target="_hsJ3QDkXEeSOxOKGitXb-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ieq5UTkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iergYDkXEeSOxOKGitXb-Q" points="[10, -3, -69, 3]$[78, 14, -1, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jLx28DkXEeSOxOKGitXb-Q" type="4002" source="_f4fhQDkXEeSOxOKGitXb-Q" target="_hsJ3QDkXEeSOxOKGitXb-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_jLx28TkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jLx28jkXEeSOxOKGitXb-Q" points="[-10, 1, 89, 7]$[-99, 14, 0, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_pEHjUDkXEeSOxOKGitXb-Q" type="4001" source="_jxhBQDkXEeSOxOKGitXb-Q" target="_nSplsDkXEeSOxOKGitXb-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_pEHjUTkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pEHjUjkXEeSOxOKGitXb-Q" points="[-3, 10, 0, -115]$[-6, 117, -3, -8]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pEJ_kDkXEeSOxOKGitXb-Q" id="(0.45652173913043476,0.2)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_pkr5wDkXEeSOxOKGitXb-Q" type="4002" source="_kjVfwDkXEeSOxOKGitXb-Q" target="_nSplsDkXEeSOxOKGitXb-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_pkr5wTkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pkr5wjkXEeSOxOKGitXb-Q" points="[10, -5, -253, 0]$[271, 2, 8, 7]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pktu8DkXEeSOxOKGitXb-Q" id="(0.1956521739130435,0.6)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Dn-fsDkcEeSOxOKGitXb-Q" type="4001" source="_C6u_MDkcEeSOxOKGitXb-Q" target="_BpR-YDkcEeSOxOKGitXb-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Dn-fsTkcEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Dn-fsjkcEeSOxOKGitXb-Q" points="[1, 10, -25, -85]$[-6, 75, -32, -20]"/>
+  </edges>
+</notation:Diagram>

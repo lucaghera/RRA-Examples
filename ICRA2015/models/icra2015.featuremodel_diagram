@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:featuremodels="http://www.hyperflex.org/featuremodels" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_gzAMQDkYEeSOxOKGitXb-Q" type="FeatureModel" name="icra2015.featuremodel_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_hTOkcDkYEeSOxOKGitXb-Q" type="2005">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hTOkdTkYEeSOxOKGitXb-Q" type="5005"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_hTOkcTkYEeSOxOKGitXb-Q"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hTOkcjkYEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_hTOkczkYEeSOxOKGitXb-Q"/>
+    <element xmi:type="featuremodels:Feature" href="icra2015.featuremodel#//@rootFeature"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hTOkdDkYEeSOxOKGitXb-Q" x="492" y="121"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_iR7BUDkYEeSOxOKGitXb-Q" type="2006">
+    <children xmi:type="notation:DecorationNode" xmi:id="_iR7oYDkYEeSOxOKGitXb-Q" type="5006"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_iR7BUTkYEeSOxOKGitXb-Q"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_iR7BUjkYEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_iR7BUzkYEeSOxOKGitXb-Q"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_iR7BVDkYEeSOxOKGitXb-Q"/>
+    <element xmi:type="featuremodels:Feature" href="icra2015.featuremodel#//@rootFeature/@subFeatures.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iR7BVTkYEeSOxOKGitXb-Q" x="319" y="255"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_gzAMQTkYEeSOxOKGitXb-Q"/>
+  <element xmi:type="featuremodels:FeatureModel" href="icra2015.featuremodel#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_mbKHkDkYEeSOxOKGitXb-Q" type="4007" source="_hTOkcDkYEeSOxOKGitXb-Q" target="_iR7BUDkYEeSOxOKGitXb-Q">
+    <styles xmi:type="notation:FontStyle" xmi:id="_mbKHkTkYEeSOxOKGitXb-Q" fontName="Ubuntu"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mbKHkjkYEeSOxOKGitXb-Q" points="[-25, 18, 148, -116]$[-223, 134, -50, 0]"/>
+  </edges>
+</notation:Diagram>

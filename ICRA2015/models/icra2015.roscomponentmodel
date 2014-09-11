@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roscomponentmodel:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:roscomponentmodel="http://www.hyperflex.org/componentmodels.ros" name="ICRA2015">
+  <composite name="ICRA2015">
+    <components xsi:type="roscomponentmodel:Node" name="Estimator" packageName="fma_estimator_node" type="fma_estimator_node">
+      <msgConsumers name="fma_sim_x3dpose" connection="//@composite/@topics.2" topicName="fma_sim_x3dpose"/>
+      <srvProducers name="estimator_predict" srvName="estimator_predict"/>
+      <srvProducers name="estimator_unpredict" srvName="estimator_unpredict"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="TrjGen" packageName="fma_target_generator_node" type="fma_target_generator_node">
+      <msgProducers name="fma_target_pose" connection="//@composite/@topics.0" topicName="fma_target_pose"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="Controller" packageName="fma_low_level_controller_node" type="fma_low_level_controller_node">
+      <msgProducers name="fma_pqrt" connection="//@composite/@topics.1" topicName="fma_pqrt"/>
+      <msgConsumers name="fma_target_pose_cont" connection="//@composite/@topics.0" topicName="fma_target_pose"/>
+      <srvConsumers name="estimator_predict_cont" srvName="estimator_predict"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="Vehicle" packageName="fma_quad_simulator_node" type="fma_quad_simulator_node">
+      <msgProducers name="fma_sim_x3dpose" connection="//@composite/@topics.2" topicName="fma_sim_x3dpose"/>
+      <msgProducers name="fma_motors_state" connection="//@composite/@topics.3" topicName="fma_motors_state"/>
+      <msgConsumers name="fma_pqrt" connection="//@composite/@topics.1" topicName="fma_pqrt"/>
+      <msgConsumers name="fma_pqrt_proploss" topicName="fma_pqrt_proploss"/>
+    </components>
+    <components xsi:type="roscomponentmodel:Node" name="Proploss" packageName="fma_prop_loss_node" type="fma_prop_loss_node">
+      <msgProducers name="fma_pqrt_proploss" topicName="fma_pqrt_proploss"/>
+      <msgConsumers name="fma_target_pose_prop" topicName="fma_target_pose"/>
+      <srvConsumers name="estimator_unpredict_prop" srvName="estimator_unpredict"/>
+      <srvConsumers name="estimator_predict_prop" srvName="estimator_predict"/>
+    </components>
+    <topics name="pose"/>
+    <topics name="pqrt"/>
+    <topics name="est. pose"/>
+    <topics name="fma_motors_state"/>
+    <wires source="//@composite/@components.0/@srvProducers.0" target="//@composite/@components.2/@srvConsumers.0" srvName="GetPredicted"/>
+  </composite>
+</roscomponentmodel:System>

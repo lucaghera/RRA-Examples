@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdmModel:ContextDependentMeasurementsModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmModel="http://www.rra.org/cdmmodel" name="icra2015_cdm" path="/home/luca/Projects/ROS-Workspace/src/">
+  <cdms xsi:type="cdmModel:ROSContextDependentMeasurement" name="motors_state">
+    <topic href="icra2015.roscomponentmodel#//@composite/@topics.4"/>
+    <inputDataType href="icra2015.datatypesmodel#//@types.0"/>
+    <cdmFunction href="icra2015.datatypesmodel#//@rosMsgFunctions.0"/>
+  </cdms>
+  <deps>sensor_msgs</deps>
+  <deps>std_msgs</deps>
+</cdmModel:ContextDependentMeasurementsModel>

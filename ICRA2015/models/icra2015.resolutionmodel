@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resolutionmodels:ResolutionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resolutionmodels="http://www.hyperflex.org/resolutionmodels" xmlns:rosresolutionmodels="http://www.hyperflex.org/resolutionmodels.ros" name="ICRA2015">
+  <resolutionElements name="4Props" activeIfSelected="false">
+    <requiredElements xsi:type="rosresolutionmodels:ROSRequiredElements">
+      <requiredNodes href="icra2015.roscomponentmodel#//@composite/@components.2"/>
+      <requiredTopicConnections xsi:type="rosresolutionmodels:ROSExistingTopicConnection" name="target_pose_consumer">
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.2/@msgConsumers.0"/>
+        <topic href="icra2015.roscomponentmodel#//@composite/@topics.0"/>
+      </requiredTopicConnections>
+      <requiredTopicConnections xsi:type="rosresolutionmodels:ROSExistingTopicConnection" name="target_pose_producer">
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.1/@msgProducers.0"/>
+        <topic href="icra2015.roscomponentmodel#//@composite/@topics.0"/>
+      </requiredTopicConnections>
+      <requiredTopicConnections xsi:type="rosresolutionmodels:ROSExistingTopicConnection" name="pqrt_prod">
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.2/@msgProducers.0"/>
+        <topic href="icra2015.roscomponentmodel#//@composite/@topics.1"/>
+      </requiredTopicConnections>
+      <requiredTopicConnections xsi:type="rosresolutionmodels:ROSExistingTopicConnection" name="pqrt_cons">
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.3/@msgConsumers.0"/>
+        <topic href="icra2015.roscomponentmodel#//@composite/@topics.1"/>
+      </requiredTopicConnections>
+      <requiredServiceConnections href="icra2015.roscomponentmodel#//@composite/@wires.0"/>
+    </requiredElements>
+    <feature href="icra2015.featuremodel#//@rootFeature/@subFeatures.0"/>
+  </resolutionElements>
+  <resolutionElements name="3Props">
+    <transformations xsi:type="rosresolutionmodels:ROSTransfConnection">
+      <newConnections xsi:type="rosresolutionmodels:ROSServiceConnection" name="estimator_predict">
+        <serviceProducer href="icra2015.roscomponentmodel#//@composite/@components.0/@srvProducers.0"/>
+        <serviceConsumer href="icra2015.roscomponentmodel#//@composite/@components.5/@srvConsumers.1"/>
+      </newConnections>
+      <newConnections xsi:type="rosresolutionmodels:ROSServiceConnection" name="estimator_unpredict">
+        <serviceProducer href="icra2015.roscomponentmodel#//@composite/@components.0/@srvProducers.1"/>
+        <serviceConsumer href="icra2015.roscomponentmodel#//@composite/@components.5/@srvConsumers.0"/>
+      </newConnections>
+      <newConnections xsi:type="rosresolutionmodels:ROSNewTopicConnection" name="pqrt_prop_cons" topicName="pqrt_prop">
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.3/@msgConsumers.1"/>
+      </newConnections>
+      <newConnections xsi:type="rosresolutionmodels:ROSNewTopicConnection" name="pqrt_prop_prod" topicName="pqrt_prop">
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.5/@msgProducers.0"/>
+      </newConnections>
+      <newConnections xsi:type="rosresolutionmodels:ROSExistingTopicConnection" name="target_pose_cons">
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.5/@msgConsumers.0"/>
+        <topic href="icra2015.roscomponentmodel#//@composite/@topics.0"/>
+      </newConnections>
+    </transformations>
+    <requiredElements xsi:type="rosresolutionmodels:ROSRequiredElements">
+      <requiredNodes href="icra2015.roscomponentmodel#//@composite/@components.4"/>
+      <requiredTopicConnections xsi:type="rosresolutionmodels:ROSExistingTopicConnection" name="target_pose_producer">
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.1/@msgProducers.0"/>
+        <topic href="icra2015.roscomponentmodel#//@composite/@topics.0"/>
+      </requiredTopicConnections>
+    </requiredElements>
+    <feature href="icra2015.featuremodel#//@rootFeature/@subFeatures.0"/>
+  </resolutionElements>
+  <resolutionElements name="StandardElements">
+    <requiredElements xsi:type="rosresolutionmodels:ROSRequiredElements">
+      <requiredNodes href="icra2015.roscomponentmodel#//@composite/@components.0"/>
+      <requiredNodes href="icra2015.roscomponentmodel#//@composite/@components.1"/>
+      <requiredNodes href="icra2015.roscomponentmodel#//@composite/@components.3"/>
+      <requiredTopicConnections xsi:type="rosresolutionmodels:ROSExistingTopicConnection" name="Est_pose_producer">
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.3/@msgProducers.0"/>
+        <topic href="icra2015.roscomponentmodel#//@composite/@topics.2"/>
+      </requiredTopicConnections>
+      <requiredTopicConnections xsi:type="rosresolutionmodels:ROSExistingTopicConnection" name="Est_pose_consumer">
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.0/@msgConsumers.0"/>
+        <topic href="icra2015.roscomponentmodel#//@composite/@topics.2"/>
+      </requiredTopicConnections>
+    </requiredElements>
+    <feature href="icra2015.featuremodel#//@rootFeature"/>
+  </resolutionElements>
+  <featureModel href="icra2015.featuremodel#/"/>
+  <templateSystemModel xsi:type="rosresolutionmodels:ROSTemplateSystemModel">
+    <system href="icra2015.roscomponentmodel#/"/>
+  </templateSystemModel>
+</resolutionmodels:ResolutionModel>

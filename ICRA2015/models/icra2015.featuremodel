@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featuremodels:FeatureModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:featuremodels="http://www.hyperflex.org/featuremodels" name="ICRA2015">
+  <rootFeature name="ICRA2015" root="true" required="true">
+    <subFeatures name="Proploss"/>
+  </rootFeature>
+  <instances id="4Props" descritpion="4Props" selectedFeatures="//@rootFeature"/>
+</featuremodels:FeatureModel>
