@@ -6,7 +6,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_hTOkcjkYEeSOxOKGitXb-Q" fontName="Ubuntu"/>
     <styles xmi:type="notation:LineStyle" xmi:id="_hTOkczkYEeSOxOKGitXb-Q"/>
     <element xmi:type="featuremodels:Feature" href="icra2015.featuremodel#//@rootFeature"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hTOkdDkYEeSOxOKGitXb-Q" x="492" y="121"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hTOkdDkYEeSOxOKGitXb-Q" x="351" y="117"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_iR7BUDkYEeSOxOKGitXb-Q" type="2006">
     <children xmi:type="notation:DecorationNode" xmi:id="_iR7oYDkYEeSOxOKGitXb-Q" type="5006"/>
@@ -15,7 +15,7 @@
     <styles xmi:type="notation:LineStyle" xmi:id="_iR7BUzkYEeSOxOKGitXb-Q"/>
     <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_iR7BVDkYEeSOxOKGitXb-Q"/>
     <element xmi:type="featuremodels:Feature" href="icra2015.featuremodel#//@rootFeature/@subFeatures.0"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iR7BVTkYEeSOxOKGitXb-Q" x="319" y="255"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iR7BVTkYEeSOxOKGitXb-Q" x="342" y="234"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_gzAMQTkYEeSOxOKGitXb-Q"/>
   <element xmi:type="featuremodels:FeatureModel" href="icra2015.featuremodel#/"/>
