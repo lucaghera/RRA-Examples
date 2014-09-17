@@ -185,7 +185,7 @@
       </children>
     </children>
     <element xmi:type="roscomponentmodel:Composite" href="icra2015.roscomponentmodel#//@composite"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t0sL0TkWEeSOxOKGitXb-Q" x="36" y="9" width="901" height="597"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t0sL0TkWEeSOxOKGitXb-Q" x="36" y="9" width="847" height="379"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_s1pJoTkWEeSOxOKGitXb-Q"/>
   <element xmi:type="roscomponentmodel:System" href="icra2015.roscomponentmodel#/"/>
@@ -203,7 +203,7 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_bxFnADkXEeSOxOKGitXb-Q" type="4007" source="_V63agDkXEeSOxOKGitXb-Q" target="_YUK0MDkXEeSOxOKGitXb-Q">
     <children xmi:type="notation:DecorationNode" xmi:id="_bxGOEDkXEeSOxOKGitXb-Q" type="6001">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_bxGOETkXEeSOxOKGitXb-Q" y="40"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bxGOETkXEeSOxOKGitXb-Q" x="-3" y="45"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_bxFnATkXEeSOxOKGitXb-Q" fontName="Ubuntu"/>
     <element xmi:type="roscomponentmodel:Wire" href="icra2015.roscomponentmodel#//@composite/@wires.0"/>

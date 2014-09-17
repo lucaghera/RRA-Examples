@@ -6,7 +6,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_hTOkcjkYEeSOxOKGitXb-Q" fontName="Ubuntu"/>
     <styles xmi:type="notation:LineStyle" xmi:id="_hTOkczkYEeSOxOKGitXb-Q"/>
     <element xmi:type="featuremodels:Feature" href="icra2015.featuremodel#//@rootFeature"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hTOkdDkYEeSOxOKGitXb-Q" x="351" y="117"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hTOkdDkYEeSOxOKGitXb-Q" x="342" y="117"/>
   </children>
   <children xmi:type="notation:Node" xmi:id="_iR7BUDkYEeSOxOKGitXb-Q" type="2006">
     <children xmi:type="notation:DecorationNode" xmi:id="_iR7oYDkYEeSOxOKGitXb-Q" type="5006"/>

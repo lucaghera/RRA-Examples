@@ -24,23 +24,23 @@
     <feature href="icra2015.featuremodel#//@rootFeature/@subFeatures.0"/>
   </resolutionElements>
   <resolutionElements name="3Props">
-    <transformations xsi:type="rosresolutionmodels:ROSTransfConnection">
+    <transformations xsi:type="rosresolutionmodels:ROSTransfConnection" name="Proploss new connections">
       <newConnections xsi:type="rosresolutionmodels:ROSServiceConnection" name="estimator_predict">
         <serviceProducer href="icra2015.roscomponentmodel#//@composite/@components.0/@srvProducers.0"/>
-        <serviceConsumer href="icra2015.roscomponentmodel#//@composite/@components.5/@srvConsumers.1"/>
+        <serviceConsumer href="icra2015.roscomponentmodel#//@composite/@components.4/@srvConsumers.1"/>
       </newConnections>
       <newConnections xsi:type="rosresolutionmodels:ROSServiceConnection" name="estimator_unpredict">
         <serviceProducer href="icra2015.roscomponentmodel#//@composite/@components.0/@srvProducers.1"/>
-        <serviceConsumer href="icra2015.roscomponentmodel#//@composite/@components.5/@srvConsumers.0"/>
+        <serviceConsumer href="icra2015.roscomponentmodel#//@composite/@components.4/@srvConsumers.0"/>
       </newConnections>
       <newConnections xsi:type="rosresolutionmodels:ROSNewTopicConnection" name="pqrt_prop_cons" topicName="pqrt_prop">
-        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.3/@msgConsumers.1"/>
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.3/@msgConsumers.0"/>
       </newConnections>
       <newConnections xsi:type="rosresolutionmodels:ROSNewTopicConnection" name="pqrt_prop_prod" topicName="pqrt_prop">
-        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.5/@msgProducers.0"/>
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.2/@msgProducers.0"/>
       </newConnections>
       <newConnections xsi:type="rosresolutionmodels:ROSExistingTopicConnection" name="target_pose_cons">
-        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.5/@msgConsumers.0"/>
+        <messageInterface href="icra2015.roscomponentmodel#//@composite/@components.4/@msgConsumers.0"/>
         <topic href="icra2015.roscomponentmodel#//@composite/@topics.0"/>
       </newConnections>
     </transformations>

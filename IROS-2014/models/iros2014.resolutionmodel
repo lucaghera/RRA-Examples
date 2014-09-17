@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resolutionmodels:ResolutionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resolutionmodels="http://www.hyperflex.org/resolutionmodels" xmlns:rosresolutionmodels="http://www.hyperflex.org/resolutionmodels.ros" name="iros2014">
+  <resolutionElements name="ComChannelA">
+    <requiredElements xsi:type="rosresolutionmodels:ROSRequiredElements">
+      <requiredNodes href="iros2014.roscomponentmodel#//@composite/@components.2"/>
+      <requiredNodes href="iros2014.roscomponentmodel#//@composite/@components.0"/>
+    </requiredElements>
+    <feature href="iros2014.featuremodel#//@rootFeature/@subFeatures.3/@containers.0/@subFeatures.0"/>
+  </resolutionElements>
+  <resolutionElements name="ComChannelB">
+    <requiredElements xsi:type="rosresolutionmodels:ROSRequiredElements">
+      <requiredNodes href="iros2014.roscomponentmodel#//@composite/@components.2"/>
+      <requiredNodes href="iros2014.roscomponentmodel#//@composite/@components.1"/>
+    </requiredElements>
+    <feature href="iros2014.featuremodel#//@rootFeature/@subFeatures.3/@containers.0/@subFeatures.1"/>
+  </resolutionElements>
+  <featureModel href="iros2014.featuremodel#/"/>
+  <templateSystemModel xsi:type="rosresolutionmodels:ROSTemplateSystemModel">
+    <system href="iros2014.roscomponentmodel#/"/>
+  </templateSystemModel>
+</resolutionmodels:ResolutionModel>
