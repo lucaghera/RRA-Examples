@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resolutionmodels:ResolutionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resolutionmodels="http://www.hyperflex.org/resolutionmodels" xmlns:rosresolutionmodels="http://www.hyperflex.org/resolutionmodels.ros" name="ICRA2015">
+<resolutionmodels:ResolutionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resolutionmodels="http://www.hyperflex.org/resolutionmodels" xmlns:rosresolutionmodels="http://www.hyperflex.org/resolutionmodels.ros" name="icra2015_rm">
   <resolutionElements name="4Props" activeIfSelected="false">
     <requiredElements xsi:type="rosresolutionmodels:ROSRequiredElements">
       <requiredNodes href="icra2015.roscomponentmodel#//@composite/@components.2"/>

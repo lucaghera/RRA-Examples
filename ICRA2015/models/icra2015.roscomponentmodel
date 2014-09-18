@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<roscomponentmodel:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:roscomponentmodel="http://www.hyperflex.org/componentmodels.ros" name="ICRA2015">
+<roscomponentmodel:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:roscomponentmodel="http://www.hyperflex.org/componentmodels.ros" name="icra2015_csm">
   <composite name="ICRA2015">
     <components xsi:type="roscomponentmodel:Node" name="Estimator" packageName="fma_estimator_node" type="fma_estimator_node">
       <msgConsumers name="fma_sim_x3dpose" connection="//@composite/@topics.2" topicName="fma_sim_x3dpose"/>

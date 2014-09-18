@@ -1,6 +1,14 @@
 import "iros2014.featuremodel";
 import "iros2014.cdmmodel";
 import "iros2014.datatypesmodel";
+import "iros2014.resolutionmodel";
+import "iros2014.roscomponentmodel";
+
+feature model CaseStudyFM;
+template system model CaseStudyTSM;
+resolution model CaseStudyRM;
+cdm model CaseStudyCDM;
+data types model CaseStudyDTM;
 
 name iros2014AdaptationModel;
 period[ms] 20000;
@@ -17,11 +25,11 @@ rule RackSize {
 };
 
 rule Radio {
-  if(CaseStudyCDM.BattLev > "50") select_feature_* 
-    from_variants_of_feature(CaseStudyFM.CaseStudy.ComChannel) 
+  if(CaseStudyCDM.BattLev > "50") 
+    select_feature_from_variants_of(CaseStudyFM.CaseStudy.ComChannel) 
     where_attribue min("Latency")
-  else select_feature_*
-    from_variants_of_feature(CaseStudyFM.CaseStudy.ComChannel) 
+  else  
+    select_feature_from_variants_of(CaseStudyFM.CaseStudy.ComChannel) 
     where_attribue min("PowerConsumption")
 };
 
